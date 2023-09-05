@@ -60,14 +60,14 @@ img{
 } /*separación formulario*/
 
 .navegacion_nav{
-    /*display: flex;*/
+    display: flex;
     flex-wrap: wrap;
     padding: 50px;
-    /*position: fixed;*/
+    position: inline;
     top:0%;
-    left: 60%;
+    left: 60px;
     gap:20px;
-    z-index: 100%;
+    /*z-index: 100%;*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }/*Diseño Menu*/
 ul li{
@@ -77,7 +77,7 @@ ul li{
     position:absolute;top: 55%;
     position: absolute;left: 1%;
     background-color: rgba(248, 248, 248, 0.226);
-    width: 20%;
+    width: 30%;
 }
 
 .servicios{
@@ -110,7 +110,7 @@ ul li{
     gap: 50px;
     position: fixed;
     align-items: center;
-    position: absolute; top:1545px;
+    position: absolute; top:1650px;
     background-color: rgba(247, 247, 247, 0.897);
     position: absolute;
     display: flex;
@@ -118,7 +118,11 @@ ul li{
     width: 50%;
     left: 30%;
     }
+.a2 img{
+    position: absolute; top: 2100px;
+    width: 100%;
+}
 .pie_de_pagina{
-    position: absolute; top: 2000px;
+    position: absolute; top: 2050px;
     position: absolute; left: 90%;
 }
