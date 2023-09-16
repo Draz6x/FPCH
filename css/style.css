@@ -1,45 +1,126 @@
 /*comentario*/
-*{
-    margin: 0;
-    padding: 0;
-}
+
+/* Estilos Index*/
 @font-face {
     font-family: Stanley;
-    src: url(../fonts/Stanley.otf);
-}
-body
+    src: url(../fonts/Stanley.otf);}
+/*Fuente "TACCA"*/
+body 
 .logo_container img{
-    width: 70px;
+    width: 80px;
 }
-
 span{
-    font-weight: 200;}
-
-span{
-    font-size: 40px;
+    font-weight: 200px;
+    position: relative; top: 10px;
+    font-size: 50px;
     background-color: white;
     color: rgb(81, 129, 212);
-}
+}/*Logo ASCH*/
 
-h1 {font-weight: 100;
-} /*grosor de Fuente*/
-h2 {font-weight: 40;
-} /*grosor de Fuente*/
-p {
-    font-weight: 300;
-    }
-p{
-    font-size: 20px;
-}/*tamaño de la Fuente*/
-h2{
-    font-size: 30px;
-}/*tamaño de la Fuente*/
-.container__title h2{
-    font-size: 78px;
+.container_title h2{
+    font-size: 70px;
     font-family: "Stanley", cursive;
     text-transform: uppercase;
     /*position: absolute; top: 10%;*/
 }
+/*____________Caracteristicas Descrpicion*/
+.dscrpcn{
+    /*position:absolute;top: 55%;*/
+    /*position: absolute;left: 1%;*/
+    background-color: rgba(248, 248, 248, 0.226);
+    width: 70%;
+}
+
+/*____________Caracteristicas diseño de imagenes*/
+.a2 img{
+
+   width: 100%;
+}
+
+/*____________Caracteristicas Textos Informativos */
+
+.servicios{
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    /*position:absolute; top: 1000px;*/
+    width: 50%;
+   /* left: 30%*/;
+    font-family: 'Times New Roman', Times, serif;  
+   }
+
+.CS1{
+/*justify-content: center;*/
+    justify-content: center;
+    gap:60%; 
+    width: 100%;  
+    display: flex;
+   /* position: fixed;*/
+    background-color: rgb(247, 247, 247, 0.897);
+    font-family: 'Times New Roman', Times, serif; 
+/* position: absolute; top: 13000px;*/
+/*position: absolute;*/
+/*flex-wrap: wrap;*/
+       
+}
+
+.CS2{
+ /*justify-content: center;*/
+ justify-content: center;
+ gap:60%; 
+ width: 100%;  
+ display: flex;
+/* position: fixed;*/
+ background-color: rgb(247, 247, 247, 0.897);
+ font-family: 'Times New Roman', Times, serif; 
+/* position: absolute; top: 13000px;*/
+/*position: absolute;*/
+/*flex-wrap: wrap;*/
+    }
+.CS3{
+/*justify-content: center;*/
+justify-content: center;
+gap:60%; 
+width: 100%;  
+display: flex;
+/* position: fixed;*/
+background-color: rgb(247, 247, 247, 0.897);
+font-family: 'Times New Roman', Times, serif; 
+/* position: absolute; top: 13000px;*/
+/*position: absolute;*/
+/*flex-wrap: wrap;*/
+}
+.pie_de_pagina{
+/* position: absolute; top: 20500px;
+    position: absolute; left: 90%;*/
+}
+
+
+/*____________Caracteristicas Generales Encabezados y parrafos */
+
+h1 {
+    font-weight: 100px;
+} /*grosor de Fuente H1*/
+
+h2 {
+    font-weight: 40px;
+    font-size: 40px;
+ 
+}/*tamaño de la Fuente & grosor de Fuente h2*/
+
+h3{
+    font-weight: 40px;
+    font-size: 30px;
+    
+} /*tamaño de la Fuente & grosor de Fuente h3*/
+
+ p {
+    font-weight: 30px;
+    font-size: 20px;
+}
+ /*tamaño de la Fuente & grosor de Fuente P*/
+
+
 
 h1 {color:rgb(74, 136, 222)} /*color de Fuente*/
 
@@ -47,9 +128,9 @@ div img.a1{
  width: 100%;
 }/*tamaño de imagenes especificas*/
 
-img{
+/*img{
  width:200px;
-}
+}*/
 
 .formulario{
     background-color:rgb(173, 173, 173);
@@ -58,71 +139,111 @@ img{
 .from_control{
     padding: 20px;
 } /*separación formulario*/
-
-.navegacion_nav{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px;
-    position: inline;
-    top:0%;
-    left: 60px;
-    gap:20px;
-    /*z-index: 100%;*/
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}/*Diseño Menu*/
-ul li{
-    background-color: white;
-}
-.contenido_principal{
-    position:absolute;top: 55%;
-    position: absolute;left: 1%;
-    background-color: rgba(248, 248, 248, 0.226);
-    width: 30%;
-}
-
-.servicios{
-    justify-content: center;
-    width: 100%;
-    gap: 50px;
-    position:absolute; top: 1000px;
-    width: 40%;
-    left: 30%;
-    font-family: 'Times New Roman', Times, serif;
-   }
-.contenido_secundario1 h2{
-
-}
-.contenido_secundario1{
-    justify-content: center;
-    gap:50px;
-    position: fixed;
-    align-items: center;
-    position: absolute; top: 1300px;
-    background-color: rgb(247, 247, 247, 0.897);
-    position: absolute;
-    display: flex;
-    /*flex-wrap: wrap;*/
-    width: 100%;    
-}
-
-.contenido_secundario2{
-    justify-content: center;
-    gap: 50px;
-    position: fixed;
-    align-items: center;
-    position: absolute; top:1650px;
-    background-color: rgba(247, 247, 247, 0.897);
-    position: absolute;
-    display: flex;
-    /*flex-wrap: wrap;*/
-    width: 50%;
-    left: 30%;
-    }
-.a2 img{
-    position: absolute; top: 2100px;
-    width: 100%;
-}
 .pie_de_pagina{
-    position: absolute; top: 2050px;
-    position: absolute; left: 90%;
+   
+    text-decoration-color: azure;
+    width: 100%;
+
 }
+.wrapper {
+   /* background-color: rgb(133, 7, 7);*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+   /* transform: translate(-50%, -50%)*/
+   
+}
+.wrapper ul{
+    list-style: none;
+}
+.wrapper ul li{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    float: left;
+    transition: all 0.5s ease;
+}
+.wrapper ul li .fa{
+    color: black;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .facebook{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .fa-facebook{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .twiter{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .instagram{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .google{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .whatsapp{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+@media screen and(max-width: 640px){
+    .wrapper{
+        width: 350px;
+    }
+    .wrapper ul li {
+        margin-top: 10px;
+    }
+    .wrapper ul li.google{
+        margin-left: 60px;
+    }
+}
+
+
+
+
+
+.created_by{
+    position: absolute;
+    left: 100%;
+}
+
