@@ -6,6 +6,7 @@
     src: url(../fonts/Stanley.otf);}
 /*Fuente "TACCA"*/
 body 
+
 .logo_container img{
     width: 80px;
 }
@@ -90,9 +91,19 @@ font-family: 'Times New Roman', Times, serif;
 /*position: absolute;*/
 /*flex-wrap: wrap;*/
 }
-.pie_de_pagina{
-/* position: absolute; top: 20500px;
-    position: absolute; left: 90%;*/
+.CS4{
+ justify-content: center;
+ border-spacing: 100px;
+ display: flex;
+/* position: fixed;*/
+ font-family: 'Times New Roman', Times, serif; 
+/* position: absolute; top: 13000px;*/
+/*position: absolute;*/
+flex-wrap: wrap;
+    }
+.AVATAR{
+    height: 600px;
+    width: 600px;
 }
 
 
@@ -103,8 +114,9 @@ h1 {
 } /*grosor de Fuente H1*/
 
 h2 {
-    font-weight: 40px;
-    font-size: 40px;
+    font-weight: 400px;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
  
 }/*tamaño de la Fuente & grosor de Fuente h2*/
 
@@ -141,7 +153,7 @@ div img.a1{
 } /*separación formulario*/
 .pie_de_pagina{
    
-    text-decoration-color: azure;
+    text-decoration-color: rgb(235, 230, 230);
     width: 100%;
 
 }
@@ -244,6 +256,11 @@ div img.a1{
 
 .created_by{
     position: absolute;
-    left: 100%;
+    left: 70%;
+}
+
+/*pagina Nosotros*/
+.CTEAM img{
+    width: 100%;
 }
 
